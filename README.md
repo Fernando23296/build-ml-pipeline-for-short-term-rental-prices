@@ -1,4 +1,11 @@
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
+
+> [Github repo](https://github.com/Fernando23296/build-ml-pipeline-for-short-term-rental-prices) </br>
+> [Weights and Biases page](https://wandb.ai/fernandopolis/nyc_airbnb?workspace=user-fernando23296) <br></br>
+> The name of the repo is different, so for example in order to execute the test you should type the following: <br>
+> mlflow run https://github.com/fernando23296/build-ml-pipeline-for-short-term-rental-prices.git  -v 1.0.1 -P hydra_options="etl.sample='sample2.csv'"
+
+
 You are working for a property management company renting rooms and properties for short periods of 
 time on various rental platforms. You need to estimate the typical price for a given property based 
 on the price of similar properties. Your company receives new data in bulk every week. The model needs 
